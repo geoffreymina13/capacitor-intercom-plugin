@@ -2,10 +2,16 @@ PODS:
   - Capacitor (2.4.7):
     - CapacitorCordova
   - CapacitorCordova (2.4.7)
+  - Intercom (9.3.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - Intercom (~> 9.3)
+
+SPEC REPOS:
+  trunk:
+    - Intercom
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -16,7 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 4cd7b342d5a15b1f6f333d687358953afd7b2d8b
   CapacitorCordova: 2c9d6e28d9d86c4da087fa2c3537c1841954bb12
+  Intercom: 5d62115c2dce258a0f2769e3b57d5329d06a2bf7
 
-PODFILE CHECKSUM: e66d6fa04b0daaf06d8498d39637adf77139c716
+PODFILE CHECKSUM: 9bcfe4423655d4b6bbdfb9ded79783208356488b
 
 COCOAPODS: 1.10.0
