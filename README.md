@@ -7,6 +7,7 @@ registerIdentifiedUser(options: {
     }): Promise<void>;
     
 registerUnidentifiedUser(): Promise<void>;
+        
 updateUser(options: UserUpdateOptions): Promise<void>;
   
 logout(): Promise<void>;
